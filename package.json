@@ -1,0 +1,24 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Match making app full stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaunBens/FriendFinder.git"
+  },
+  "keywords": [
+    "friendfinder",
+    "matchmaker"
+  ],
+  "author": "Shaun Bens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaunBens/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/ShaunBens/FriendFinder#readme"
+}
