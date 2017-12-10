@@ -6,7 +6,7 @@
     <title>FF - SURVEY</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -16,23 +16,25 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <h1 style="text-align:center;">Friend Finder!</h1>
+                        <a href="index.html">
+                            <h1 style="text-align:center; color:black;">Friend Finder!</h1>
+                        </a>
                         <h2 style="text-align:center;">Survey Questions</h2>
                         <hr>
                         <form>
                             <div class="form-group">
                                 <label for="aboutYou"><h4>About You</h4>Name*</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                                <input type="text" class="form-control" id="nameInput" placeholder="Name">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Link to Photo Image*</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Photo URL">
+                                <label>Link to Photo Image*</label>
+                                <input type="url" class="form-control" id="photoInput" placeholder="Photo URL">
                                 <small class=" form-text text-muted">All questions must be answered before survey completion*</small>
                             </div>
                             <hr>
                             <div class="form-group">
                                 <label for="questionOne"><h5>Question 1:</h5><h6>I believe that there is no absolute right and wrong.</h6></label>
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control" id="q01">
                                       <option>1 (Strongly Disagree)</option>
                                       <option>2 (Disagree Somewhat)</option>
                                       <option>3 (Niether Agree or Disagree)</option>
@@ -42,7 +44,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="questionOne"><h5>Question 2:</h5><h6>I excel in what I do.</h6></label>
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control" id="q02">
                                       <option>1 (Strongly Disagree)</option>
                                       <option>2 (Disagree Somewhat)</option>
                                       <option>3 (Niether Agree or Disagree)</option>
@@ -52,7 +54,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="questionOne"><h5>Question 3:</h5><h6>I work hard.</h6></label>
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control" id="q03">
                                       <option>1 (Strongly Disagree)</option>
                                       <option>2 (Disagree Somewhat)</option>
                                       <option>3 (Niether Agree or Disagree)</option>
@@ -62,7 +64,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="questionOne"><h5>Question 4:</h5><h6>I dont let pressure affect my ability to complete a task.</h6></label>
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control" id="q04">
                                       <option>1 (Strongly Disagree)</option>
                                       <option>2 (Disagree Somewhat)</option>
                                       <option>3 (Niether Agree or Disagree)</option>
@@ -72,7 +74,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="questionOne"><h5>Question 5:</h5><h6>I want everything to be just right.</h6></label>
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control" id="q05">
                                       <option>1 (Strongly Disagree)</option>
                                       <option>2 (Disagree Somewhat)</option>
                                       <option>3 (Niether Agree or Disagree)</option>
@@ -82,7 +84,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="questionOne"><h5>Question 6:</h5><h6>I stick to my chosen path.</h6></label>
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control" id="q06">
                                       <option>1 (Strongly Disagree)</option>
                                       <option>2 (Disagree Somewhat)</option>
                                       <option>3 (Niether Agree or Disagree)</option>
@@ -92,7 +94,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="questionOne"><h5>Question 7:</h5><h6>I get stressed out easily.</h6></label>
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control" id="q07">
                                       <option>1 (Strongly Disagree)</option>
                                       <option>2 (Disagree Somewhat)</option>
                                       <option>3 (Niether Agree or Disagree)</option>
@@ -102,7 +104,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="questionOne"><h5>Question 8:</h5><h6>I am often in a bad mood.</h6></label>
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control" id="q08">
                                       <option>1 (Strongly Disagree)</option>
                                       <option>2 (Disagree Somewhat)</option>
                                       <option>3 (Niether Agree or Disagree)</option>
@@ -112,7 +114,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="questionOne"><h5>Question 9:</h5><h6>I enjoy being around large groups of people.</h6></label>
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control" id="q09">
                                       <option>1 (Strongly Disagree)</option>
                                       <option>2 (Disagree Somewhat)</option>
                                       <option>3 (Niether Agree or Disagree)</option>
@@ -122,7 +124,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="questionOne"><h5>Question 10:</h5><h6>I turn plans into actions.</h6></label>
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control" id="q10">
                                       <option>1 (Strongly Disagree)</option>
                                       <option>2 (Disagree Somewhat)</option>
                                       <option>3 (Niether Agree or Disagree)</option>
@@ -130,7 +132,7 @@
                                       <option>5 (Strongly Agree)</option>
                                     </select>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit Answers!</button>
+                            <button type="submit" class="btn btn-primary" id="submit">Submit Answers!</button>
                         </form>
                     </div>
                 </div>
@@ -150,7 +152,7 @@
                     </button>
                 </div>
                 <div cloass="modal-body">
-                    <span id="matchImg"></span>
+                    <img id="matchImg" src="http://image.boomsbeat.com/data/images/full/209/jobs-jpg.jpg" alt=""></img>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary">Start another Survey</button>
@@ -161,9 +163,54 @@
     </div>
     <!-- End Match Modal -->
 
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>
+                <a href="/api/friends" class="badge badge-info">Friends API</a>
+            </p>
+        </div>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- Start Javascript to grab inputs and prepare POST API -->
+    <script type="text/javascript">
+        $('#submit').on("click", function() {
+            event.preventDefault();
+            if ($('#nameInput', '#photoInput') === null) {
+                alert("Please Fill out all input fields.");
+            }
+            else {
+                var userInput = {
+                    name: $('#nameInput').val().trim(),
+                    photo: $('#photoInput').val().trim(),
+                    scores: [
+                        $('#q01').val().trim(),
+                        $('#q02').val().trim(),
+                        $('#q03').val().trim(),
+                        $('#q04').val().trim(),
+                        $('#q05').val().trim(),
+                        $('#q06').val().trim(),
+                        $('#q07').val().trim(),
+                        $('#q08').val().trim(),
+                        $('#q09').val().trim(),
+                        $('#q10').val().trim()
+                    ]
+                };
+            }
+            var currentURL = window.location.origin;
+            $.POST(currentURL + '/api/friends', userInput, function(data) {
+                $("#matchMaker").text(data.name);
+                $("#matchImg").attr("src", data.photo);
+                $("#matchMade").modal("show");
+            });
+
+            return false;
+        });
+    </script>
 </body>
 
 </html>
