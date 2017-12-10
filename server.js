@@ -19,8 +19,10 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 app.use(express.static(path.join(__dirname, '/app/public')));
 
-require("./app/routing/htmlRoutes");
-require("./app/routing/apiRoutes");
+var initHtmlRoutes = require("./app/routing/htmlRoutes");
+initHtmlRoutes(app);
+var initApiRoutes = require("./app/routing/apiRoutes");
+initApiRoutes(app);
 
 // Starts the server to begin listening
 // =============================================================
