@@ -1,5 +1,5 @@
 # FriendFinder
-Functional Example found here: https://mysterious-crag-88677.herokuapp.com/
+Functional Example found here: https://thefriend-finder.herokuapp.com/
 
 ## Overview
 Friend Finder is a basic full-stack web application that utilizes HTML/CSS/Bootstrap/Javascript/jQuery for the front end and Nodejs/Express/Path/body-parser for the back-end.
